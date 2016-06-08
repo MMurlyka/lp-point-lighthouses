@@ -1,0 +1,14 @@
+.i {
+	display: inline-block;
+	background-image: url(../images/sprite.png);
+	vertical-align: middle;
+}
+{{#sprites}}
+.i-{{name}} {
+	&:extend(.i);
+	
+	background-position: {{px.offset_x}} {{px.offset_y}};
+	width: {{px.width}};
+	height: {{px.height}};
+}
+{{/sprites}}

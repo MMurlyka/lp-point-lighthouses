@@ -1,0 +1,5 @@
+@font-face {
+	font-family: 'impactreg';
+	src: url('./impactreg.eot');
+	src: local('impact'), url('../fonts/impactreg.woff') format('woff'), url('../fonts/impactreg.ttf') format('truetype');
+}
